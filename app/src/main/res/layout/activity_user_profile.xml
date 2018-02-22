@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.me.njerucyrus.chatapp.UserProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/user_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_margin="5dp"
+            android:src="@mipmap/default_avator"
+            android:background="#fff"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/user_profile_image"
+            android:layout_marginTop="10dp"
+            android:background="#534f4f"
+            >
+        <TextView
+            android:id="@+id/user_profile_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_name"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/user_profile_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_profile_display_name"
+            android:text="default status"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+
+            <Button
+                android:id="@+id/btn_send_friend_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_send_friend_request"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorRed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_gravity="bottom"
+                />
+
+            <Button
+                android:id="@+id/btn_decline_friend_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorRed"
+                android:text="@string/decline_friend_request"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

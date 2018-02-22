@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "789465998220",
+    "firebase_url": "https://chatapp-f819a.firebaseio.com",
+    "project_id": "chatapp-f819a",
+    "storage_bucket": "chatapp-f819a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789465998220:android:2b4404c2be5ac6e4",
+        "android_client_info": {
+          "package_name": "com.example.njerucyrus.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789465998220-b8q09gusp8d2ikc04kkpa7pisjbao892.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.njerucyrus.chatapp",
+            "certificate_hash": "976b09372239d2769ce7e20674c33ec9bc9c38c1"
+          }
+        },
+        {
+          "client_id": "789465998220-27qb80o0dm66khe8q3epnt28vd72t4ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaau39-Ueg4dW8vd94KFiJ01nFn6CaUB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789465998220-27qb80o0dm66khe8q3epnt28vd72t4ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789465998220:android:6e0174da31ab04a9",
+        "android_client_info": {
+          "package_name": "com.me.njerucyrus.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789465998220-4a9itmtbol7ol0aep5u4btpnu06ps2a8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.njerucyrus.chatapp",
+            "certificate_hash": "8195a77dbd40aa92857769fb8e39aff64b418fd2"
+          }
+        },
+        {
+          "client_id": "789465998220-27qb80o0dm66khe8q3epnt28vd72t4ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaau39-Ueg4dW8vd94KFiJ01nFn6CaUB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789465998220-27qb80o0dm66khe8q3epnt28vd72t4ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

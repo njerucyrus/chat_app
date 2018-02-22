@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.me.njerucyrus.chatapp.SettingsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/default_avator"
+            android:layout_gravity="center"
+            app:civ_border_width="2dp"
+            />
+
+        <TextView
+            android:id="@+id/settings_displayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_displayname"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/settings_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_chat_app_status"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_image"
+            android:id="@+id/btn_change_image"
+            android:background="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/colorBlack"
+            android:padding="5dp"
+            android:drawableStart="@drawable/ic_camera_alt_black_24dp"
+            android:drawablePadding="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_status"
+            android:id="@+id/btn_change_status"
+            android:background="@color/colorRed"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

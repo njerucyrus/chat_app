@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="display_name">Display name</string>
+    <string name="reg_email_address_hint">Email address</string>
+    <string name="reg_password_hint">Password</string>
+    <string name="btn_register">Create account</string>
+    <string name="welcome_to_chat_app">Welcome to Chat App</string>
+    <string name="need_account_btn_text">Need account?</string>
+    <string name="main_menu_logout">Logout</string>
+    <string name="menu_account_settings">Account Settings</string>
+    <string name="menu_all_users">All Users</string>
+    <string name="text_create_a_new_account">Create a New Account</string>
+    <string name="btn_login_text">Login</string>
+    <string name="text_login">Login to your account</string>
+    <string name="already_have_an_account">Already have an account.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_displayname">Display Name</string>
+    <string name="my_chat_app_status">My chat app status</string>
+    <string name="change_status">Change Status</string>
+    <string name="change_image">Change image</string>
+    <string name="new_status_txt">Type new status</string>
+    <string name="status_save_changes">Save changes</string>
+    <string name="btn_send_friend_request">Send Friend Request</string>
+    <string name="decline_friend_request">Decline friend request</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="online">online</string>
+    <string name="typing">typing ...</string>
+</resources>
